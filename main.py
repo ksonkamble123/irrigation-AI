@@ -3,7 +3,7 @@ import os
 import json
 
 # Move your model loading outside the loop for speed
-MODEL_PATH = os.path.join(os.path.dirname(__file__), 'irrigation_ai_model.pkl')
+MODEL_PATH = os.path.join(os.path.dirname(__file__), 'AI/irrigation_ai_model.pkl')
 
 def main(context):
     # Appwrite sends data through context.req.body_json
